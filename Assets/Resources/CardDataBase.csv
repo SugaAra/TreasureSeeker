@@ -1,0 +1,105 @@
+name,cardID,enchantID,enchantValue,isRed,isBlue,isYellow,enchant,detail,enchantIcon,cardColor
+Red_None,0,0,0,TRUE,FALSE,FALSE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardRed.png
+Blue_None,1,0,0,FALSE,TRUE,FALSE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_None,2,0,0,FALSE,FALSE,TRUE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardYellow.png
+RB_None,3,0,0,TRUE,TRUE,FALSE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardRB.png
+RY_None,4,0,0,TRUE,FALSE,TRUE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardRY.png
+BY_None,5,0,0,FALSE,TRUE,TRUE,スキルなし,,Assets/Resources/CardImage/NoEnchant.png,Assets/Resources/CardImage/CardBY.png
+Red_Shield1,6,1,1,TRUE,FALSE,FALSE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardRed.png
+Blue_Shield1,7,1,1,FALSE,TRUE,FALSE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_Shield1,8,1,1,FALSE,FALSE,TRUE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardYellow.png
+RB_Shield1,9,1,1,TRUE,TRUE,FALSE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardRB.png
+RY_Shield1,10,1,1,TRUE,FALSE,TRUE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardRY.png
+BY_Shield1,11,1,1,FALSE,TRUE,TRUE,ガード,ダメージ1回無効!!,Assets/Resources/CardImage/Shield1.png,Assets/Resources/CardImage/CardBY.png
+Red_ATKUp1,12,2,1,TRUE,FALSE,FALSE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardRed.png
+Blue_ATKUp1,13,2,1,FALSE,TRUE,FALSE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ATKUp1,14,2,1,FALSE,FALSE,TRUE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardYellow.png
+RB_ATKUp1,15,2,1,TRUE,TRUE,FALSE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardRB.png
+RY_ATKUp1,16,2,1,TRUE,FALSE,TRUE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardRY.png
+BY_ATKUp1,17,2,1,FALSE,TRUE,TRUE,攻撃アップ,ATK + 1!!,Assets/Resources/CardImage/ATKUp1.png,Assets/Resources/CardImage/CardBY.png
+Red_HPCure1,18,3,2,TRUE,FALSE,FALSE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardRed.png
+Blue_HPCure1,19,3,2,FALSE,TRUE,FALSE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_HPCure1,20,3,2,FALSE,FALSE,TRUE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardYellow.png
+RB_HPCure1,21,3,2,TRUE,TRUE,FALSE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardRB.png
+RY_HPCure1,22,3,2,TRUE,FALSE,TRUE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardRY.png
+BY_HPCure1,23,3,2,FALSE,TRUE,TRUE,HP回復,HP2回復!!,Assets/Resources/CardImage/HPCure1.png,Assets/Resources/CardImage/CardBY.png
+Red_MPCure1,24,4,1,TRUE,FALSE,FALSE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRed.png
+Blue_MPCure1,25,4,1,FALSE,TRUE,FALSE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_MPCure1,26,4,1,FALSE,FALSE,TRUE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardYellow.png
+RB_MPCure1,27,4,1,TRUE,TRUE,FALSE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRB.png
+RY_MPCure1,28,4,1,TRUE,FALSE,TRUE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRY.png
+BY_MPCure1,29,4,1,FALSE,TRUE,TRUE,MP回復,MP1回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardBY.png
+Red_ComboUp1,30,5,1,TRUE,FALSE,FALSE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardRed.png
+Blue_ComboUp1,31,5,1,FALSE,TRUE,FALSE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ComboUp1,32,5,1,FALSE,FALSE,TRUE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardYellow.png
+RB_ComboUp1,33,5,1,TRUE,TRUE,FALSE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardRB.png
+RY_ComboUp1,34,5,1,TRUE,FALSE,TRUE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardRY.png
+BY_ComboUp1,35,5,1,FALSE,TRUE,TRUE,COMBOアップ,COMBO+1!!,Assets/Resources/CardImage/ComboUp1.png,Assets/Resources/CardImage/CardBY.png
+Red_Shield2,36,1,2,TRUE,FALSE,FALSE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardRed.png
+Blue_Shield2,37,1,2,FALSE,TRUE,FALSE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_Shield2,38,1,2,FALSE,FALSE,TRUE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardYellow.png
+RB_Shield2,39,1,2,TRUE,TRUE,FALSE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardRB.png
+RY_Shield2,40,1,2,TRUE,FALSE,TRUE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardRY.png
+BY_Shield2,41,1,2,FALSE,TRUE,TRUE,ガード+,ダメージ2回無効!!,Assets/Resources/CardImage/Shield2.png,Assets/Resources/CardImage/CardBY.png
+Red_ATKUp2,42,2,2,TRUE,FALSE,FALSE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardRed.png
+Blue_ATKUp2,43,2,2,FALSE,TRUE,FALSE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ATKUp2,44,2,2,FALSE,FALSE,TRUE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardYellow.png
+RB_ATKUp2,45,2,2,TRUE,TRUE,FALSE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardRB.png
+RY_ATKUp2,46,2,2,TRUE,FALSE,TRUE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardRY.png
+BY_ATKUp2,47,2,2,FALSE,TRUE,TRUE,攻撃アップ+,ATK + 2!!,Assets/Resources/CardImage/ATKUp2.png,Assets/Resources/CardImage/CardBY.png
+Red_HPCure2,48,3,3,TRUE,FALSE,FALSE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardRed.png
+Blue_HPCure2,49,3,3,FALSE,TRUE,FALSE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_HPCure2,50,3,3,FALSE,FALSE,TRUE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardYellow.png
+RB_HPCure2,51,3,3,TRUE,TRUE,FALSE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardRB.png
+RY_HPCure2,52,3,3,TRUE,FALSE,TRUE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardRY.png
+BY_HPCure2,53,3,3,FALSE,TRUE,TRUE,HP回復+,HP3回復!!,Assets/Resources/CardImage/HPCure2.png,Assets/Resources/CardImage/CardBY.png
+Red_MPCure2,54,4,2,TRUE,FALSE,FALSE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRed.png
+Blue_MPCure2,55,4,2,FALSE,TRUE,FALSE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_MPCure2,56,4,2,FALSE,FALSE,TRUE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardYellow.png
+RB_MPCure2,57,4,2,TRUE,TRUE,FALSE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRB.png
+RY_MPCure2,58,4,2,TRUE,FALSE,TRUE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardRY.png
+BY_MPCure2,59,4,2,FALSE,TRUE,TRUE,MP回復+,MP2回復!!,Assets/Resources/CardImage/MPCure1.png,Assets/Resources/CardImage/CardBY.png
+Red_ComboUp2,60,5,2,TRUE,FALSE,FALSE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardRed.png
+Blue_ComboUp2,61,5,2,FALSE,TRUE,FALSE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ComboUp2,62,5,2,FALSE,FALSE,TRUE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardYellow.png
+RB_ComboUp2,63,5,2,TRUE,TRUE,FALSE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardRB.png
+RY_ComboUp2,64,5,2,TRUE,FALSE,TRUE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardRY.png
+BY_ComboUp2,65,5,2,FALSE,TRUE,TRUE,COMBOアップ+,COMBO+2!!,Assets/Resources/CardImage/ComboUp2.png,Assets/Resources/CardImage/CardBY.png
+Red_Shield3,66,1,3,TRUE,FALSE,FALSE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardRed.png
+Blue_Shield3,67,1,3,FALSE,TRUE,FALSE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_Shield3,68,1,3,FALSE,FALSE,TRUE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardYellow.png
+RB_Shield3,69,1,3,TRUE,TRUE,FALSE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardRB.png
+RY_Shield3,70,1,3,TRUE,FALSE,TRUE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardRY.png
+BY_Shield3,71,1,3,FALSE,TRUE,TRUE,ガード++,ダメージ3回無効!!,Assets/Resources/CardImage/Shield3.png,Assets/Resources/CardImage/CardBY.png
+Red_ATKUp3,72,2,3,TRUE,FALSE,FALSE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardRed.png
+Blue_ATKUp3,73,2,3,FALSE,TRUE,FALSE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ATKUp3,74,2,3,FALSE,FALSE,TRUE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardYellow.png
+RB_ATKUp3,75,2,3,TRUE,TRUE,FALSE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardRB.png
+RY_ATKUp3,76,2,3,TRUE,FALSE,TRUE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardRY.png
+BY_ATKUp3,77,2,3,FALSE,TRUE,TRUE,攻撃アップ++,ATK + 3!!,Assets/Resources/CardImage/ATKUp3.png,Assets/Resources/CardImage/CardBY.png
+Red_HPCure3,78,3,5,TRUE,FALSE,FALSE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardRed.png
+Blue_HPCure3,79,3,5,FALSE,TRUE,FALSE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_HPCure3,80,3,5,FALSE,FALSE,TRUE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardYellow.png
+RB_HPCure3,81,3,5,TRUE,TRUE,FALSE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardRB.png
+RY_HPCure3,82,3,5,TRUE,FALSE,TRUE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardRY.png
+BY_HPCure3,83,3,5,FALSE,TRUE,TRUE,HP回復++,HP5回復!!,Assets/Resources/CardImage/HPCure3.png,Assets/Resources/CardImage/CardBY.png
+Red_MPCure3,84,4,3,TRUE,FALSE,FALSE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardRed.png
+Blue_MPCure3,85,4,3,FALSE,TRUE,FALSE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_MPCure3,86,4,3,FALSE,FALSE,TRUE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardYellow.png
+RB_MPCure3,87,4,3,TRUE,TRUE,FALSE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardRB.png
+RY_MPCure3,88,4,3,TRUE,FALSE,TRUE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardRY.png
+BY_MPCure3,89,4,3,FALSE,TRUE,TRUE,MP回復++,MP3回復!!,Assets/Resources/CardImage/MPCure3.png,Assets/Resources/CardImage/CardBY.png
+Red_ComboUp3,90,5,3,TRUE,FALSE,FALSE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardRed.png
+Blue_ComboUp3,91,5,3,FALSE,TRUE,FALSE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardBlue.png
+Yellow_ComboUp3,92,5,3,FALSE,FALSE,TRUE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardYellow.png
+RB_ComboUp3,93,5,3,TRUE,TRUE,FALSE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardRB.png
+RY_ComboUp3,94,5,3,TRUE,FALSE,TRUE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardRY.png
+BY_ComboUp3,95,5,3,FALSE,TRUE,TRUE,COMBOアップ++,COMBO+3!!,Assets/Resources/CardImage/ComboUp3.png,Assets/Resources/CardImage/CardBY.png
+MaxHP10,96,10,10,FALSE,FALSE,FALSE,最大HPアップ,最大HP10アップ,Assets/Resources/CardImage/MaxHP10Up.png,Assets/Resources/CardImage/CardGray.png
+MaxHP15,97,10,15,FALSE,FALSE,FALSE,最大HPアップ+,最大HP15アップ,Assets/Resources/CardImage/MaxHP15Up.png,Assets/Resources/CardImage/CardGray.png
+MaxHP20,98,10,25,FALSE,FALSE,FALSE,最大HPアップ++,最大HP25アップ,Assets/Resources/CardImage/MaxHP25Up.png,Assets/Resources/CardImage/CardGray.png
+MaxMP2,99,11,2,FALSE,FALSE,FALSE,最大MPアップ,最大MP2アップ,Assets/Resources/CardImage/MaxMP2Up.png,Assets/Resources/CardImage/CardGray.png
+MaxMP5,100,11,5,FALSE,FALSE,FALSE,最大MPアップ+,最大MP5アップ,Assets/Resources/CardImage/MaxMP5Up.png,Assets/Resources/CardImage/CardGray.png
+MaxMP10,101,11,10,FALSE,FALSE,FALSE,最大MPアップ++,最大MP10アップ,Assets/Resources/CardImage/MaxMP10Up.png,Assets/Resources/CardImage/CardGray.png
+BaseATKUp2,102,12,2,FALSE,FALSE,FALSE,ATKアップ+,常時ATK2アップ,Assets/Resources/CardImage/BaseATK2Up.png,Assets/Resources/CardImage/CardGray.png
+BaseATKUp3,103,12,3,FALSE,FALSE,FALSE,ATKアップ++,常時ATK3アップ,Assets/Resources/CardImage/BaseATK3Up.png,Assets/Resources/CardImage/CardGray.png

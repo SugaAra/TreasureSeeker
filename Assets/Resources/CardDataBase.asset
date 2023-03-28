@@ -1,0 +1,1159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8506df78a2023974dbfbc5510b1cf235, type: 3}
+  m_Name: CardDataBase
+  m_EditorClassIdentifier: 
+  datas:
+  - name: Red_None
+    cardID: 0
+    enchantID: 0
+    enchantValue: 0
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_None
+    cardID: 1
+    enchantID: 0
+    enchantValue: 0
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_None
+    cardID: 2
+    enchantID: 0
+    enchantValue: 0
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_None
+    cardID: 3
+    enchantID: 0
+    enchantValue: 0
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_None
+    cardID: 4
+    enchantID: 0
+    enchantValue: 0
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_None
+    cardID: 5
+    enchantID: 0
+    enchantValue: 0
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u30B9\u30AD\u30EB\u306A\u3057"
+    detail: 
+    enchantIcon: {fileID: 21300000, guid: 2a1513c2416c5c9429f117bc97573b18, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_Shield1
+    cardID: 6
+    enchantID: 1
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_Shield1
+    cardID: 7
+    enchantID: 1
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_Shield1
+    cardID: 8
+    enchantID: 1
+    enchantValue: 1
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_Shield1
+    cardID: 9
+    enchantID: 1
+    enchantValue: 1
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_Shield1
+    cardID: 10
+    enchantID: 1
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_Shield1
+    cardID: 11
+    enchantID: 1
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9"
+    detail: "\u30C0\u30E1\u30FC\u30B81\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 1f1e6067f9374714db0e0766970e4745, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ATKUp1
+    cardID: 12
+    enchantID: 2
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ATKUp1
+    cardID: 13
+    enchantID: 2
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ATKUp1
+    cardID: 14
+    enchantID: 2
+    enchantValue: 1
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ATKUp1
+    cardID: 15
+    enchantID: 2
+    enchantValue: 1
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ATKUp1
+    cardID: 16
+    enchantID: 2
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ATKUp1
+    cardID: 17
+    enchantID: 2
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7"
+    detail: ATK + 1!!
+    enchantIcon: {fileID: 21300000, guid: f6ca25228e225c945a69f97bb50201ab, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_HPCure1
+    cardID: 18
+    enchantID: 3
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_HPCure1
+    cardID: 19
+    enchantID: 3
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_HPCure1
+    cardID: 20
+    enchantID: 3
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_HPCure1
+    cardID: 21
+    enchantID: 3
+    enchantValue: 2
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_HPCure1
+    cardID: 22
+    enchantID: 3
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_HPCure1
+    cardID: 23
+    enchantID: 3
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9"
+    detail: "HP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 250612e90f728354c80d118e843500eb, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_MPCure1
+    cardID: 24
+    enchantID: 4
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_MPCure1
+    cardID: 25
+    enchantID: 4
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_MPCure1
+    cardID: 26
+    enchantID: 4
+    enchantValue: 1
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_MPCure1
+    cardID: 27
+    enchantID: 4
+    enchantValue: 1
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_MPCure1
+    cardID: 28
+    enchantID: 4
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_MPCure1
+    cardID: 29
+    enchantID: 4
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9"
+    detail: "MP1\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ComboUp1
+    cardID: 30
+    enchantID: 5
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ComboUp1
+    cardID: 31
+    enchantID: 5
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ComboUp1
+    cardID: 32
+    enchantID: 5
+    enchantValue: 1
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ComboUp1
+    cardID: 33
+    enchantID: 5
+    enchantValue: 1
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ComboUp1
+    cardID: 34
+    enchantID: 5
+    enchantValue: 1
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ComboUp1
+    cardID: 35
+    enchantID: 5
+    enchantValue: 1
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7"
+    detail: COMBO+1!!
+    enchantIcon: {fileID: 21300000, guid: bfc3155537b46a4458f7d2f3179b33aa, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_Shield2
+    cardID: 36
+    enchantID: 1
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_Shield2
+    cardID: 37
+    enchantID: 1
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_Shield2
+    cardID: 38
+    enchantID: 1
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_Shield2
+    cardID: 39
+    enchantID: 1
+    enchantValue: 2
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_Shield2
+    cardID: 40
+    enchantID: 1
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_Shield2
+    cardID: 41
+    enchantID: 1
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9+"
+    detail: "\u30C0\u30E1\u30FC\u30B82\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: 3f2e9a26422eb624f97d87ff96c6ba26, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ATKUp2
+    cardID: 42
+    enchantID: 2
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ATKUp2
+    cardID: 43
+    enchantID: 2
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ATKUp2
+    cardID: 44
+    enchantID: 2
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ATKUp2
+    cardID: 45
+    enchantID: 2
+    enchantValue: 2
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ATKUp2
+    cardID: 46
+    enchantID: 2
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ATKUp2
+    cardID: 47
+    enchantID: 2
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7+"
+    detail: ATK + 2!!
+    enchantIcon: {fileID: 21300000, guid: 027289a4d7fb9bf46be832a663162686, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_HPCure2
+    cardID: 48
+    enchantID: 3
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_HPCure2
+    cardID: 49
+    enchantID: 3
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_HPCure2
+    cardID: 50
+    enchantID: 3
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_HPCure2
+    cardID: 51
+    enchantID: 3
+    enchantValue: 3
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_HPCure2
+    cardID: 52
+    enchantID: 3
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_HPCure2
+    cardID: 53
+    enchantID: 3
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9+"
+    detail: "HP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: f95ee923752357d48bb87e2573fd8063, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_MPCure2
+    cardID: 54
+    enchantID: 4
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_MPCure2
+    cardID: 55
+    enchantID: 4
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_MPCure2
+    cardID: 56
+    enchantID: 4
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_MPCure2
+    cardID: 57
+    enchantID: 4
+    enchantValue: 2
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_MPCure2
+    cardID: 58
+    enchantID: 4
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_MPCure2
+    cardID: 59
+    enchantID: 4
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9+"
+    detail: "MP2\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ComboUp2
+    cardID: 60
+    enchantID: 5
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ComboUp2
+    cardID: 61
+    enchantID: 5
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ComboUp2
+    cardID: 62
+    enchantID: 5
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ComboUp2
+    cardID: 63
+    enchantID: 5
+    enchantValue: 2
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ComboUp2
+    cardID: 64
+    enchantID: 5
+    enchantValue: 2
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ComboUp2
+    cardID: 65
+    enchantID: 5
+    enchantValue: 2
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7+"
+    detail: COMBO+2!!
+    enchantIcon: {fileID: 21300000, guid: 6d7b469c96757734ab678664588ff549, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_Shield3
+    cardID: 66
+    enchantID: 1
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_Shield3
+    cardID: 67
+    enchantID: 1
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_Shield3
+    cardID: 68
+    enchantID: 1
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_Shield3
+    cardID: 69
+    enchantID: 1
+    enchantValue: 3
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_Shield3
+    cardID: 70
+    enchantID: 1
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_Shield3
+    cardID: 71
+    enchantID: 1
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u30AC\u30FC\u30C9++"
+    detail: "\u30C0\u30E1\u30FC\u30B83\u56DE\u7121\u52B9!!"
+    enchantIcon: {fileID: 21300000, guid: a39bf0aea9b87334983ac6237f51ac6e, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ATKUp3
+    cardID: 72
+    enchantID: 2
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ATKUp3
+    cardID: 73
+    enchantID: 2
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ATKUp3
+    cardID: 74
+    enchantID: 2
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ATKUp3
+    cardID: 75
+    enchantID: 2
+    enchantValue: 3
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ATKUp3
+    cardID: 76
+    enchantID: 2
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ATKUp3
+    cardID: 77
+    enchantID: 2
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "\u653B\u6483\u30A2\u30C3\u30D7++"
+    detail: ATK + 3!!
+    enchantIcon: {fileID: 21300000, guid: 3b84cf93bf15090488c485c719b51030, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_HPCure3
+    cardID: 78
+    enchantID: 3
+    enchantValue: 5
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_HPCure3
+    cardID: 79
+    enchantID: 3
+    enchantValue: 5
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_HPCure3
+    cardID: 80
+    enchantID: 3
+    enchantValue: 5
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_HPCure3
+    cardID: 81
+    enchantID: 3
+    enchantValue: 5
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_HPCure3
+    cardID: 82
+    enchantID: 3
+    enchantValue: 5
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_HPCure3
+    cardID: 83
+    enchantID: 3
+    enchantValue: 5
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "HP\u56DE\u5FA9++"
+    detail: "HP5\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 4bf809cec313ae6439499ce8809aa815, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_MPCure3
+    cardID: 84
+    enchantID: 4
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_MPCure3
+    cardID: 85
+    enchantID: 4
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_MPCure3
+    cardID: 86
+    enchantID: 4
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_MPCure3
+    cardID: 87
+    enchantID: 4
+    enchantValue: 3
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_MPCure3
+    cardID: 88
+    enchantID: 4
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_MPCure3
+    cardID: 89
+    enchantID: 4
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "MP\u56DE\u5FA9++"
+    detail: "MP3\u56DE\u5FA9!!"
+    enchantIcon: {fileID: 21300000, guid: 7659875d28bafef4ca54015508eaa501, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: Red_ComboUp3
+    cardID: 90
+    enchantID: 5
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
+  - name: Blue_ComboUp3
+    cardID: 91
+    enchantID: 5
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
+  - name: Yellow_ComboUp3
+    cardID: 92
+    enchantID: 5
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
+  - name: RB_ComboUp3
+    cardID: 93
+    enchantID: 5
+    enchantValue: 3
+    isRed: 1
+    isBlue: 1
+    isYellow: 0
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
+  - name: RY_ComboUp3
+    cardID: 94
+    enchantID: 5
+    enchantValue: 3
+    isRed: 1
+    isBlue: 0
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
+  - name: BY_ComboUp3
+    cardID: 95
+    enchantID: 5
+    enchantValue: 3
+    isRed: 0
+    isBlue: 1
+    isYellow: 1
+    enchant: "COMBO\u30A2\u30C3\u30D7++"
+    detail: COMBO+3!!
+    enchantIcon: {fileID: 21300000, guid: 6517abeff238523478fd7d8a5ae4b8c5, type: 3}
+    cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
+  - name: MaxHP10
+    cardID: 96
+    enchantID: 10
+    enchantValue: 10
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927HP\u30A2\u30C3\u30D7"
+    detail: "\u6700\u5927HP10\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 5eaf1f4e987c9df459f55b5ca5b9905f, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: MaxHP15
+    cardID: 97
+    enchantID: 10
+    enchantValue: 15
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927HP\u30A2\u30C3\u30D7+"
+    detail: "\u6700\u5927HP15\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 0c60a20ecb39bc64b946ab68c25176b2, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: MaxHP20
+    cardID: 98
+    enchantID: 10
+    enchantValue: 25
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927HP\u30A2\u30C3\u30D7++"
+    detail: "\u6700\u5927HP25\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: aa2dcfd40f9bbf5459f6ad9b1b6bca3f, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: MaxMP2
+    cardID: 99
+    enchantID: 11
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927MP\u30A2\u30C3\u30D7"
+    detail: "\u6700\u5927MP2\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 25f55c9057c1cbe4d82c5af075e1c709, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: MaxMP5
+    cardID: 100
+    enchantID: 11
+    enchantValue: 5
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927MP\u30A2\u30C3\u30D7+"
+    detail: "\u6700\u5927MP5\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 7d837a0b67c15c448bf4ca29db9d7837, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: MaxMP10
+    cardID: 101
+    enchantID: 11
+    enchantValue: 10
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "\u6700\u5927MP\u30A2\u30C3\u30D7++"
+    detail: "\u6700\u5927MP10\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 9d238064b793ebe42b010404ab93d304, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: BaseATKUp2
+    cardID: 102
+    enchantID: 12
+    enchantValue: 2
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "ATK\u30A2\u30C3\u30D7+"
+    detail: "\u5E38\u6642ATK2\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: 8667e78a16071d94ba68a05065454dfa, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}
+  - name: BaseATKUp3
+    cardID: 103
+    enchantID: 12
+    enchantValue: 3
+    isRed: 0
+    isBlue: 0
+    isYellow: 0
+    enchant: "ATK\u30A2\u30C3\u30D7++"
+    detail: "\u5E38\u6642ATK3\u30A2\u30C3\u30D7"
+    enchantIcon: {fileID: 21300000, guid: d28f054816f613740a52feec9bd6dac5, type: 3}
+    cardColor: {fileID: 21300000, guid: 0104f73ceb551e94bb19f29e04566a5a, type: 3}

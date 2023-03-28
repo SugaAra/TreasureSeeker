@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43102b5c86cd5444180880c898a2584b, type: 3}
+  m_Name: EnemyDataBase
+  m_EditorClassIdentifier: 
+  datas:
+  - enemyName: Treasure
+    enemyID: 0
+    isTreasure: 1
+    enemyHP: 1000000
+    enemyATK: 0
+    enemyATKNum: 0
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: 1a5e63035493b42459f5b66d7b380a09, type: 3}
+  - enemyName: SlimeBlue
+    enemyID: 1
+    isTreasure: 0
+    enemyHP: 25
+    enemyATK: 1
+    enemyATKNum: 5
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: d4d0af14575e29941b176236fe76d3d1, type: 3}
+  - enemyName: SlimeBlueShield
+    enemyID: 2
+    isTreasure: 0
+    enemyHP: 45
+    enemyATK: 1
+    enemyATKNum: 3
+    enemyDEF: 1
+    enemyIcon: {fileID: 21300000, guid: c8dde295eb0c75a489e18be69839ab44, type: 3}
+  - enemyName: SlimeBlueSword
+    enemyID: 3
+    isTreasure: 0
+    enemyHP: 40
+    enemyATK: 3
+    enemyATKNum: 3
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: 694dfee666eb1b144b8ced74dc1d7cbe, type: 3}
+  - enemyName: SlimeBlueBig
+    enemyID: 4
+    isTreasure: 0
+    enemyHP: 100
+    enemyATK: 2
+    enemyATKNum: 10
+    enemyDEF: 1
+    enemyIcon: {fileID: 21300000, guid: 75fea29321ea106459096282e369bf7d, type: 3}
+  - enemyName: SlimeGreen
+    enemyID: 5
+    isTreasure: 0
+    enemyHP: 45
+    enemyATK: 2
+    enemyATKNum: 5
+    enemyDEF: 1
+    enemyIcon: {fileID: 21300000, guid: be523901b0756d84fad5316c8686eac3, type: 3}
+  - enemyName: SlimeGreenShield
+    enemyID: 6
+    isTreasure: 0
+    enemyHP: 70
+    enemyATK: 2
+    enemyATKNum: 3
+    enemyDEF: 2
+    enemyIcon: {fileID: 21300000, guid: eadcf00172e4ad74087730a05d016986, type: 3}
+  - enemyName: SlimeGreenSword
+    enemyID: 7
+    isTreasure: 0
+    enemyHP: 55
+    enemyATK: 4
+    enemyATKNum: 4
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: c2b4e9e4dfcd9ee40963d65541ed029a, type: 3}
+  - enemyName: SlimeGreenBig
+    enemyID: 8
+    isTreasure: 0
+    enemyHP: 120
+    enemyATK: 3
+    enemyATKNum: 10
+    enemyDEF: 2
+    enemyIcon: {fileID: 21300000, guid: 30b9491daf74c514ea00dae7b10817b8, type: 3}
+  - enemyName: SlimePink
+    enemyID: 9
+    isTreasure: 0
+    enemyHP: 65
+    enemyATK: 3
+    enemyATKNum: 5
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: 8bc6b553e5b105947a41eed018500873, type: 3}
+  - enemyName: SlimePinkShield
+    enemyID: 10
+    isTreasure: 0
+    enemyHP: 100
+    enemyATK: 3
+    enemyATKNum: 3
+    enemyDEF: 3
+    enemyIcon: {fileID: 21300000, guid: 2c959271455cd944cbfdb066e094ea14, type: 3}
+  - enemyName: SlimePinkSword
+    enemyID: 11
+    isTreasure: 0
+    enemyHP: 75
+    enemyATK: 5
+    enemyATKNum: 5
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: 12f154645def3d8478404f0a8d0c5780, type: 3}
+  - enemyName: SlimePinkSwordShield
+    enemyID: 12
+    isTreasure: 0
+    enemyHP: 80
+    enemyATK: 4
+    enemyATKNum: 6
+    enemyDEF: 3
+    enemyIcon: {fileID: 21300000, guid: 7e334dafede05ef4e8892fe614117d30, type: 3}
+  - enemyName: SlimePinkBig
+    enemyID: 13
+    isTreasure: 0
+    enemyHP: 150
+    enemyATK: 3
+    enemyATKNum: 15
+    enemyDEF: 3
+    enemyIcon: {fileID: 21300000, guid: d8ca821419796c44988866741e9a7f0d, type: 3}
+  - enemyName: Bear
+    enemyID: 14
+    isTreasure: 0
+    enemyHP: 120
+    enemyATK: 5
+    enemyATKNum: 5
+    enemyDEF: 2
+    enemyIcon: {fileID: 21300000, guid: f200a313b1896ca4aac91f096ebb0efd, type: 3}
+  - enemyName: Cobra
+    enemyID: 15
+    isTreasure: 0
+    enemyHP: 40
+    enemyATK: 2
+    enemyATKNum: 30
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: ede8b6ad09c904b4c9bbf5422018506d, type: 3}
+  - enemyName: Devil
+    enemyID: 16
+    isTreasure: 0
+    enemyHP: 400
+    enemyATK: 10
+    enemyATKNum: 6
+    enemyDEF: 5
+    enemyIcon: {fileID: 21300000, guid: d41a35f1279410d488728fce34467b8d, type: 3}
+  - enemyName: Gnu
+    enemyID: 17
+    isTreasure: 0
+    enemyHP: 150
+    enemyATK: 7
+    enemyATKNum: 7
+    enemyDEF: 2
+    enemyIcon: {fileID: 21300000, guid: 3bed87cf8c1de7140af85a1ab35dea94, type: 3}
+  - enemyName: Oni
+    enemyID: 18
+    isTreasure: 0
+    enemyHP: 230
+    enemyATK: 50
+    enemyATKNum: 2
+    enemyDEF: 0
+    enemyIcon: {fileID: 21300000, guid: a7e304b3f5765284caf480037c146a4b, type: 3}
+  - enemyName: Sai
+    enemyID: 19
+    isTreasure: 0
+    enemyHP: 300
+    enemyATK: 31
+    enemyATKNum: 3
+    enemyDEF: 5
+    enemyIcon: {fileID: 21300000, guid: 09c4da3c64268ba49bdeb569e37ace0b, type: 3}
+  - enemyName: Wyvern
+    enemyID: 20
+    isTreasure: 0
+    enemyHP: 625
+    enemyATK: 6
+    enemyATKNum: 12
+    enemyDEF: 15
+    enemyIcon: {fileID: 21300000, guid: 18d072426df05254e9e1649149320489, type: 3}
