@@ -616,7 +616,7 @@ MonoBehaviour:
     isYellow: 0
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: 5f274a47b74431e4f99a15c44676d585, type: 3}
   - name: Blue_MPCure2
     cardID: 55
@@ -627,7 +627,7 @@ MonoBehaviour:
     isYellow: 0
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: bc496350c004feb48a66ebf80e2801c4, type: 3}
   - name: Yellow_MPCure2
     cardID: 56
@@ -638,7 +638,7 @@ MonoBehaviour:
     isYellow: 1
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: 514467dcc17eb0d44954f79f1cd6e329, type: 3}
   - name: RB_MPCure2
     cardID: 57
@@ -649,7 +649,7 @@ MonoBehaviour:
     isYellow: 0
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: 7e2d1d3c4360fb84fa25dd2ede3eb9c2, type: 3}
   - name: RY_MPCure2
     cardID: 58
@@ -660,7 +660,7 @@ MonoBehaviour:
     isYellow: 1
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: 58be61b299f5bc342b18c594bf5bf53b, type: 3}
   - name: BY_MPCure2
     cardID: 59
@@ -671,7 +671,7 @@ MonoBehaviour:
     isYellow: 1
     enchant: "MP\u56DE\u5FA9+"
     detail: "MP2\u56DE\u5FA9!!"
-    enchantIcon: {fileID: 21300000, guid: 777f15a77baf82143a0bc7ff032daa2f, type: 3}
+    enchantIcon: {fileID: 21300000, guid: 023aeabc7afebcc44b1965022a96e87b, type: 3}
     cardColor: {fileID: 21300000, guid: 00be15390b995d54196cd17c654fa36b, type: 3}
   - name: Red_ComboUp2
     cardID: 60

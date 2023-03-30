@@ -40,7 +40,7 @@ public class TreasureSelect : MonoBehaviour
         randLeft = UnityEngine.Random.Range(96, 104);
         UnityEngine.Random.InitState(DateTime.Now.Millisecond);
         randCenter = UnityEngine.Random.Range(6, 36);
-        UnityEngine.Random.InitState(DateTime.Now.Millisecond);
+        UnityEngine.Random.InitState(DateTime.Now.Second);
         randRight = UnityEngine.Random.Range(6, 96);
 
         // cardIDに応じたカードを表示
