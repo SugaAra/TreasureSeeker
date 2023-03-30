@@ -1,0 +1,48 @@
+クレジット
+・モンスター素材
+　サイト名：いらすとや
+　URL：https://www.irasutoya.com/
+・音楽素材
+SE
+  サイト名：効果音ラボ
+  URL：https://soundeffect-lab.info/
+BGM
+  タイトル画面：おもちゃの国のマーチ
+    サイト名：甘茶の音楽工房
+    作曲者：甘茶　　様
+    URL：https://amachamusic.chagasi.com/
+
+  戦闘画面：夜間単独非行
+    サイト名：DOVA-SYNDROME
+    作曲者：yuhei komatsu　　様
+    URL：https://dova-s.jp/bgm/play18356.html
+
+ クリア画面：ゲームクリアー！
+    サイト名：DOVA-SYNDROME
+    作曲者：マニーラ　　様
+    URL：https://dova-s.jp/bgm/play18024.html
+
+ ゲームオーバー画面：ゲーム・オーバー
+    サイト名：甘茶の音楽工房
+    作曲者：甘茶　　様
+    URL：https://amachamusic.chagasi.com/
+
+・使用したアセット
+　CSV Serialize
+
+・参考サイト
+【Unity】アニメーションするダイアログの作り方 - ねこじゃらシティ
+https://nekojara.city/unity-animated-dialog
+
+【Unity】音を管理するオブジェクトの作り方(1weekの知見共有) - Unityゲーム開発講座　スタジオしまづ
+https://studioshimazu.com/post-1037/#toc4
+
+【解説通りに作るだけ】 デジタルカードゲームの作り方④ カードの動かし方編 - みじんこの徒然ブログ
+https://yuus01.info/game-make/unity_tcg_make4/
+
+【Unity】 CSV SerializerでCSVファイルを読み込む - Qiita
+https://qiita.com/Kirikabu_ueda/items/23b4827abf5b8b6251bc
+
+・参考ゲーム
+Slay the Spire
+UNO
